@@ -71,10 +71,9 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
+            to: '/frens-docs'
           },
           { to: '/manifesto', label: 'Manifesto', position: 'left' },
           {
@@ -97,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/frens-docs',
               },
             ],
           },
