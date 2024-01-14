@@ -42,13 +42,22 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+        <html lang="en-US">
+      <head>
+        <meta charset="UTF-8" />
+        <meta
+          http-equiv="refresh"
+          content="0; url=docs/intro.html"
+        />
+        <script type="text/javascript">
+          window.location.href = 'docs/intro.html';
+        </script>
+        <title>Your Site Title Here</title>
+      </head>
+      <body>
+        If you are not redirected automatically, follow this
+        <a href="docs/intro.html">link</a>.
+      </body>
+    </html>
   );
 }

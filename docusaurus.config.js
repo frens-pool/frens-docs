@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'frens-pool', // Usually your GitHub org/user name.
+  projectName: 'frena-dapp', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,18 +64,22 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Frens',
+        //title: 'Frens',
         logo: {
           alt: 'Frens.fun Logo',
           src: 'img/FRENS.png',
         },
         items: [
           {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
-            to: '/frens-docs'
+            label: 'Docs',
+            // position: 'left',
+            // label: 'Documentation',
+            // to: '/frens-docs'
           },
-          { to: '/manifesto', label: 'Manifesto', position: 'left' },
+          //{ to: '/manifesto', label: 'Manifesto', position: 'left' },
           {
             href: 'https://discord.gg/yx53KwrvRS',
             label: 'Join our Discord',
