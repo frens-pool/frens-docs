@@ -47,16 +47,16 @@ export default function Home() {
         <meta charset="UTF-8" />
         <meta
           http-equiv="refresh"
-          content="0; url=docs/intro.html"
+          content="0; url=docs/manifesto"
         />
         <script type="text/javascript">
-          window.location.href = 'docs/intro.html';
+          window.location.href = 'docs/manifesto';
         </script>
         <title>Your Site Title Here</title>
       </head>
       <body>
         If you are not redirected automatically, follow this
-        <a href="docs/intro.html">link</a>.
+        <a href="docs/manifesto">link</a>.
       </body>
     </html>
   );
